@@ -12,6 +12,8 @@
     "paths": {
       "@/*": ["./*"]
     },
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
     "types": ["vite/client"],
     "allowImportingTsExtensions": true,
     "noEmit": true
